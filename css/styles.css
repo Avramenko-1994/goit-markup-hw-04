@@ -547,6 +547,12 @@ img {
     margin: 15px;
 }
 
+.portfolio-list-item:hover,
+.portfolio-list-item:focus {
+    box-shadow: 7px 10px 5px 0px rgba(41, 37, 37, 0.57);
+}
+
+
 .gallery-text {
     border: 1px solid #eeeeee;
     border-top: transparent;

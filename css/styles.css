@@ -470,6 +470,13 @@ img {
 
 /* Список контактів */
 
+.footer-position {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+
 .footer-contact-link-address:hover,
 .footer-contact-link-address:focus,
 .footer-contact-link:hover,
@@ -500,6 +507,60 @@ img {
     letter-spacing: 0.03em;
     color: var(--footer-text-color);
 }
+
+/* Соціальні мережі */
+
+.footer-social-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14px;
+    text-transform: uppercase;
+    color: var(--white-text-color);
+
+    padding: 20px 0px 10px 0px;
+    margin-bottom: 20px;
+}
+
+.footer-social-networks {
+    margin-left: 70px;
+    width: 206px;
+}
+
+.footer-social-list {
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+
+    display: flex;
+    padding: 0;
+    margin-top: 0;
+}
+
+.footer-social-item {
+    width: 44px;
+    height: 44px;
+}
+
+.footer-social-link {
+    width: 44px;
+    height: 44px;
+    display: block;
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: #ffffff10;
+}
+
+.footer-social-link:hover {
+    color: #ffffff;
+    background-color: var(--accent-color);
+}
+
+.footer-social-icon {
+    margin: 12px 0px 0px 12px;
+    fill: currentColor;
+}
+
+
 
 /* Портфоліо */
 
@@ -549,7 +610,7 @@ img {
 
 .portfolio-list-item:hover,
 .portfolio-list-item:focus {
-    box-shadow: 7px 10px 5px 0px rgba(41, 37, 37, 0.57);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 

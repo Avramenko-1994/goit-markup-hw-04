@@ -135,8 +135,8 @@ img {
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 
-    margin-top: 32px;
-    margin-bottom: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     display: block;
 }
 
@@ -159,8 +159,8 @@ img {
     color: var(--secondary-text-color);
 
     display: inline-flex;
-    margin-top: 32px;
-    margin-bottom: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
     color: var(--secondary-text-color);
     align-items: center;
 }
@@ -262,7 +262,8 @@ img {
     flex-direction: column;
     padding: 25px 0px;
     margin-bottom: 30px;
-
+    
+    border-radius: 4px;
     background-color: var(--team-background-color);
 }
 
@@ -284,6 +285,7 @@ img {
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
+
 
 /* Список занять */
 

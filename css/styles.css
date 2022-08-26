@@ -119,7 +119,7 @@ img {
 .header-nav-list {
     display: flex;
     align-items: center;
-    margin-left: 93px;
+    
 }
 
 .header-nav-item:not(:last-child) {
@@ -190,7 +190,6 @@ img {
     padding-top: 200px;
     padding-bottom: 200px;
     max-width: 1600px;
-    min-height: 600px;
     margin-left: auto;
     margin-right: auto;
 
@@ -254,18 +253,18 @@ img {
 }
 
 .features-icon-fon {
-    display: flex;
-    width: 270px;
-    height: 120px;
-    align-items: center;
-    justify-items: center;
-    flex-direction: column;
-    padding: 25px 0px;
-    margin-bottom: 30px;
-    
-    border-radius: 4px;
-    background-color: var(--team-background-color);
+display: flex;
+justify-content: center;
+align-items: center;
+
+width: 270px;
+height: 120px;
+margin-bottom: 30px;
+background-color: var(--team-background-color);
+border-radius: 4px;
 }
+
+
 
 .features-title {
     font-weight: 700;
@@ -285,7 +284,6 @@ img {
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
-
 
 /* Список занять */
 
@@ -352,12 +350,13 @@ img {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
+    margin-bottom: 16px;
 }
 
 .team-social-list {
     display: flex;
     padding: 0px 32px;
-    margin-top: 16px;
+    
     list-style: none;
     justify-content: space-between;
     align-items: center;
@@ -369,9 +368,11 @@ img {
 }
 
 .team-social-link {
+    display: flex;
     width: 44px;
     height: 44px;
-    display: block;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     color: #afb1b8;
     background-color: #FFFFFF;
@@ -383,7 +384,6 @@ img {
 }
 
 .team-social-icon {
-    margin: 12px 0px 0px 12px;
     fill: currentColor;
 }
 
@@ -421,20 +421,15 @@ img {
 }
 
 .client-link {
-    display: flex;
-    justify-content: center;
-    padding: 16px 32px;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 170px;
+height: 92px;
+border-radius: 4px;
+color: #AFB1B8;
 }
 
-.client-icon {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    fill: currentColor;
-    background-repeat: no-repeat;
-    background-size: contain;
-    color: #afb1b8;
-}
 
 .client-item:hover,
 .client-item:focus {
@@ -442,10 +437,6 @@ img {
     border-color: var(--accent-color);
 }
 
-.client-icon:hover,
-.client-icon:focus {
-    color: var(--accent-color);
-}
 
 /* Підвал */
 .footer {
@@ -513,14 +504,15 @@ img {
 /* Соціальні мережі */
 
 .footer-social-title {
+    padding: 0px 0px 0px 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.14px;
+    line-height: 1.14;
     text-transform: uppercase;
     color: var(--white-text-color);
-
-    padding: 20px 0px 10px 0px;
-    margin-bottom: 20px;
 }
 
 .footer-social-networks {
@@ -546,7 +538,9 @@ img {
 .footer-social-link {
     width: 44px;
     height: 44px;
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
     color: #ffffff;
     background-color: #ffffff10;
@@ -558,7 +552,6 @@ img {
 }
 
 .footer-social-icon {
-    margin: 12px 0px 0px 12px;
     fill: currentColor;
 }
 
@@ -598,6 +591,7 @@ img {
 .portfolio-btn:focus {
     background-color: var(--accent-color);
     color: var(--white-text-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-list {
@@ -610,8 +604,9 @@ img {
     margin: 15px;
 }
 
-.portfolio-list-item:hover,
-.portfolio-list-item:focus {
+.portfolio-link:hover,
+.portfolio-link:focus {
+    display: block;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 

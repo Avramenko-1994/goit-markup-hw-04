@@ -408,7 +408,7 @@ border-radius: 4px;
 }
 
 .client-item {
-    border: 1px solid #afb1b8;
+    
     border-radius: 4px;
     width: 170px;
     height: 90px;
@@ -427,12 +427,15 @@ align-items: center;
 width: 170px;
 height: 92px;
 border-radius: 4px;
+border: 1px solid #afb1b8;
 color: #AFB1B8;
+fill: currentColor;
 }
 
 
-.client-item:hover,
-.client-item:focus {
+
+.client-link:hover,
+.client-link:focus {
     color: var(--accent-color);
     border-color: var(--accent-color);
 }
